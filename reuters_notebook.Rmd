@@ -1,0 +1,30 @@
+---
+title: "Sentiment analysis of Reuters headlines, 2011-2017"
+output: html_notebook
+---
+
+Is our world a nice place to live in? Or should be afraid? How do media portray it? Which emotions dominate in the news? Fear? Anger? Or maybe joy and trust?
+
+Well, we can't really answer questions posted here fully, but we can give it a shot and get at least some insights. What we will use is only a fraction of media coverage - more specifically, we will use Reuters newsline datasets, published recently on Kaggle. It contains all newsline published on Reuters webpage since 2011 (up to 2017). It's a reasonable dataset, spans over several years and we hope that it is enough to maybe capture some trends.
+
+<h2> Formulating hypotheses </h2>
+
+It is a good practice to reflect on the problem before even touching the data. Let's think for a second about what is it we can expect to find. What happened in the world in the lest 6 years? How did the media cover it?
+
+First o all, terrorism and war come to mind. These things are always reported with scrutiny; whenever people die in numbers - especially in the West - media will most likely be there to inform us about it. Given recent terrorism incidents in Germany and France, mass shootings in US and war in Syria, our first hypothesis sates that fearful and sad newslines will have positive trend throughout these 6 years.
+
+
+
+
+ 
+This is a quick example of how one can use beautiful tidytext package for sentiment analysis. It's simple, straightforward and gets use to answers and visualisation in just several lines on clean R code. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
